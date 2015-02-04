@@ -94,8 +94,7 @@ public class Contour {
       
      Line beginContourFrom()
     {
-        LinkedList isOpen = new LinkedList();
-        int index = -1;
+        
         Line found = null;
        for(int i = 0; i < lines.size(); i++)
        {
