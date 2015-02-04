@@ -750,7 +750,7 @@ public class Processer {
             }
         }
         
-        /*System.out.println("adding conours, remaining line number: "+initial.size()+" total number of contours: "+contours.size());
+        /*System.out.println("adding conours, remaining number of lines: "+initial.size()+" total number of contours: "+contours.size());
         for(Contour cont : contours)
         {
             cont.printLines();
@@ -782,7 +782,7 @@ public class Processer {
     {
         Contour nearest = new Contour();
         nearest = contours.get(0);
-        boolean reverse = false; //to change direction i assume
+       
         
         double minDistance = lineLength(nearest.get(0).getStartingCoordinates(), start);
         
